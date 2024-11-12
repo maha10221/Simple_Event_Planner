@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Simple_Event_Planner/static/css/main.7c534c17.css",
+    "main.js": "/Simple_Event_Planner/static/js/main.8f5f1b24.js",
+    "static/js/453.abdfe4c5.chunk.js": "/Simple_Event_Planner/static/js/453.abdfe4c5.chunk.js",
+    "index.html": "/Simple_Event_Planner/index.html",
+    "main.7c534c17.css.map": "/Simple_Event_Planner/static/css/main.7c534c17.css.map",
+    "main.8f5f1b24.js.map": "/Simple_Event_Planner/static/js/main.8f5f1b24.js.map",
+    "453.abdfe4c5.chunk.js.map": "/Simple_Event_Planner/static/js/453.abdfe4c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c534c17.css",
+    "static/js/main.8f5f1b24.js"
+  ]
+}
