@@ -1,0 +1,31 @@
+.notification {
+    position: fixed;
+    top: 10px; /* Distance from the top of the screen */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: #4caf50; /* Green color for the notification box */
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 5px;
+    z-index: 1000;
+    font-size: 16px;
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    opacity: 1;
+    width: 300px; /* Fixed width for the notification box */
+    overflow: hidden; /* Ensure the progress bar doesn't overflow */
+    position: relative; /* For progress bar positioning */
+}
+
+.notification.hide {
+    opacity: 0;
+    transform: scale(0.9) translateX(-50%); /* Hide and scale down */
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Start from the left side */
+    height: 5px;
+    background-color: #ffeb3b; /* Yellow color for the progress bar */
+    transition: width 0.3s linear;
+}
